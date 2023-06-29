@@ -6,6 +6,9 @@ body{
 	background-size: cover;
   	background-repeat: no-repeat;
 }
+span{
+	pointer-events: none;
+}
 #container{
 	margin-top: 50px;
 	width:350px;
@@ -80,4 +83,10 @@ body{
 }
 .clear-entry,.backspace{
 	background-color: rgb(240, 186, 186);
+}
+.button:hover{
+	filter:brightness(0.9);
+}
+.button:active{
+	filter:brightness(0.7);
 }
